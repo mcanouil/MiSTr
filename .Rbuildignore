@@ -14,3 +14,4 @@
 ^.checks.R$
 ^docs$
 ^.cran-checks.R$
+^LICENSE\.md$

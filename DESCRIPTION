@@ -27,7 +27,7 @@ Authors@R:
 Description: Test for association between a set of SNPS/genes
     and continuous or binary outcomes by including variant characteristic
     information and using (weighted) score statistics.
-License: LGPL (>= 2.0)
+License: LGPL (>= 2.1)
 URL: https://github.com/mcanouil/MiST,
     https://mcanouil.github.io/MiST
 BugReports: https://github.com/mcanouil/MiST/issues
