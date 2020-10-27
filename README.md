@@ -9,10 +9,8 @@
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![GitHub
 tag](https://img.shields.io/github/tag/mcanouil/MiSTr.svg?label=latest%20tag)](https://github.com/mcanouil/MiSTr)
-[![Travis-CI Build
-Status](https://travis-ci.org/mcanouil/MiSTr.svg?branch=master)](https://travis-ci.org/mcanouil/MiSTr)
-[![AppVeyor Build
-Status](https://ci.appveyor.com/api/projects/status/github/mcanouil/MiSTr?branch=master&svg=true)](https://ci.appveyor.com/project/mcanouil/MiSTr)
+[![R build
+status](https://github.com/mcanouil/MiSTr/workflows/R-CMD-check/badge.svg)](https://github.com/mcanouil/MiSTr/actions)
 [![Coverage Status
 (codecov)](https://codecov.io/gh/mcanouil/MiSTr/branch/master/graph/badge.svg)](https://codecov.io/gh/mcanouil/MiSTr)
 <!-- badges: end -->
@@ -59,7 +57,7 @@ res <- mist(
 str(res)
 #> List of 2
 #>  $ estimate  :'data.frame':  1 obs. of  5 variables:
-#>   ..$ SubClusters: Factor w/ 1 level "cluster1": 1
+#>   ..$ SubClusters: chr "cluster1"
 #>   ..$ Pi_hat     : num 0.248
 #>   ..$ SE         : num 0.321
 #>   ..$ CI_2.5     : num -0.389
@@ -107,7 +105,7 @@ res <- mist(
 str(res)
 #> List of 2
 #>  $ estimate  :'data.frame':  1 obs. of  6 variables:
-#>   ..$ SubClusters: Factor w/ 1 level "cluster1": 1
+#>   ..$ SubClusters: chr "cluster1"
 #>   ..$ Pi_hat     : num 1.27
 #>   ..$ SE         : num 0.344
 #>   ..$ CI_2.5     : num 0.66
